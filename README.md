@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Premium Asfalt İşləri</title>
-<meta name="description" content="Premium asfalt çəkilişi və yol işləri">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
 
@@ -24,13 +22,13 @@ background:#0b0b0b;
 color:white;
 }
 
-/* NAVBAR */
+/* NAV */
 
 nav{
 position:fixed;
 width:100%;
 top:0;
-background:rgba(0,0,0,0.9);
+background:rgba(0,0,0,.9);
 padding:15px 10%;
 display:flex;
 justify-content:space-between;
@@ -43,8 +41,8 @@ color:#FFD700;
 
 nav a{
 color:white;
-text-decoration:none;
 margin-left:25px;
+text-decoration:none;
 transition:.3s;
 }
 
@@ -61,8 +59,10 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
+
 background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
 url("https://images.unsplash.com/photo-1503387762-592deb58ef4e") center/cover;
+
 padding:0 10%;
 }
 
@@ -77,6 +77,8 @@ max-width:800px;
 font-size:20px;
 }
 
+/* BUTTON */
+
 .btn{
 margin-top:35px;
 padding:15px 40px;
@@ -85,8 +87,8 @@ color:black;
 text-decoration:none;
 border-radius:30px;
 font-weight:700;
-transition:.3s;
 display:inline-block;
+transition:.3s;
 }
 
 .btn:hover{
@@ -103,7 +105,7 @@ padding:120px 10%;
 text-align:center;
 font-size:42px;
 color:#FFD700;
-margin-bottom:70px;
+margin-bottom:60px;
 }
 
 /* SERVICES */
@@ -135,7 +137,7 @@ margin-bottom:15px;
 
 .gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:25px;
 }
 
@@ -188,49 +190,64 @@ nav{padding:15px 5%;}
 <nav>
 <h2>Premium Asfalt</h2>
 <div>
+<a href="#about">Haqqımızda</a>
 <a href="#services">Xidmətlər</a>
-<a href="#gallery">Qalereya</a>
+<a href="#gallery">İşlərimiz</a>
+<a href="#team">Komanda</a>
 <a href="#contact">Əlaqə</a>
 </div>
 </nav>
 
 <section class="hero">
 <h1>PREMIUM ASFALT İŞLƏRİ</h1>
-<p>Yol, həyət və sənaye asfaltlanması üzrə peşəkar xidmət. Keyfiyyət və zəmanət bizim prioritetimizdir.</p>
 
-<a class="btn" href="#contact">Əlaqə Saxla</a>
+<p>Peşəkar işçi heyəti, müasir texnika və yüksək keyfiyyətli asfalt materialları ilə xidmətinizdəyik.</p>
+
+<a class="btn" href="#contact">WhatsApp Yaz</a>
+</section>
+
+<section id="about">
+<h2 class="title">Haqqımızda</h2>
+
+<div class="card">
+<p>
+Biz yol asfaltlanması, həyət asfaltı və təmir işləri üzrə peşəkar xidmət göstəririk. 
+Müasir texnika və təcrübəli ustalarımız ilə keyfiyyətli və davamlı asfalt örtüyü hazırlayırıq.
+</p>
+</div>
 </section>
 
 <section id="services">
-<h2 class="title">Xidmətlərimiz</h2>
+<h2 class="title">Gördüyümüz İşlər</h2>
 
 <div class="services">
 
 <div class="card">
-<h3>🚧 Yol Asfaltlanması</h3>
-<p>Magistral və daxili yolların premium keyfiyyətlə asfaltlanması.</p>
+<h3>🚧 Yol Asfaltı</h3>
+<p>Magistral və daxili yolların asfaltlanması.</p>
 </div>
 
 <div class="card">
-<h3>🏠 Həyət Asfaltlanması</h3>
-<p>Villa və obyekt həyətlərinin modern asfalt örtüyü.</p>
+<h3>🏠 Həyət Asfaltı</h3>
+<p>Villa və obyekt həyətlərinin asfaltlanması.</p>
 </div>
 
 <div class="card">
 <h3>🔧 Təmir İşləri</h3>
-<p>Çat və zədələnmiş asfaltların bərpası.</p>
+<p>Asfalt çatlarının professional bərpası.</p>
 </div>
 
 </div>
 </section>
 
 <section id="gallery">
-<h2 class="title">Qalereya</h2>
+<h2 class="title">Asfalt İşlərimiz</h2>
 
 <div class="gallery">
-<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538">
-<img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5">
 <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+<img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5">
+<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538">
+<img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a">
 </div>
 </section>
 
