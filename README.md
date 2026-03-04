@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="az">
 <head>
 <meta charset="UTF-8">
@@ -218,39 +218,4 @@ Rezervasiya Et
 </div>
 
 </body>
-</html></div>
-</section>
-
-<section>
-<div class="card">
-<h3>Yol Tikintisi</h3>
-<p>Magistral və daxili yolların peşəkar tikintisi.</p>
-</div>
-
-<div class="card">
-<h3>Asfaltlama</h3>
-<p>Həyət, parking və sənaye sahələrinin asfalt örtüyü.</p>
-</div>
-
-<div class="card">
-<h3>Təmir və Bərpa</h3>
-<p>Köhnə asfaltın sökülməsi və yenilənməsi.</p>
-</div>
-</section>
-
-<footer>
-<p>© 2026 ASFALT AZƏRBAYCAN | Bütün hüquqlar qorunur</p>
-</footer>
-
-<div class="whatsapp">
-<a href="https://wa.me/994702552530" target="_blank">
-<i class="fab fa-whatsapp"></i>
-</a>
-</div>
-
-</body>
-</html>        </footer>
-    </div>
-
-</body>
-</html>>
+</html>
